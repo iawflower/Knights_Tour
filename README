@@ -1,0 +1,31 @@
+This program's purpose is to implement an object oriented neural network based on Takefuji and Lee's paper in Neurocomputing. It solves the nxn Knight's Tour problem, representing each space on the board as a "node." The nodes are connected by "neurons" that represent each legal knight's move on the board. The neurons themselves have two imporant attributes: output and state. The output is either 0 or 1, and signifies wether or not the neuron is part of the final solution, meaning that move is part of the knight's tour. The state is a number which varies each time the network updates unless the neuron only has two active neighbors.
+
+The code works as follows:
+Initialization:
+	Each node in the grid is created.
+	Neurons are created connecting each node, being careful not to create duplicate neurons.
+	Neurons' lists of neighboring neurons is populated.
+	
+Updates:
+	Each neuron in the network is updated sequentially, in row-major order.
+	If any neuron's state changes, it runs the loop again.
+	
+Termination:
+	If the number of network epochs (an epoch represents each network updating once) exceeds 1000, the loop terminates early, assuming it will not converge further.
+	The system then checks if the solution obtained is an actual solution. If not, the network is reset, and the code run again.
+	
+Results:
+	Once a solution is obtained, the results are printed by node. Each node entry lists the adjacent nodes that share and active neuron with it.
+	
+
+Current Status:
+	Board creation and initialization... perfect.
+	Board updating...................... working, incorrect.
+	Visuals............................. not implemented.
+		
+		
+	Currently, the code executes and runs almost entirely as intended. However, the algorithm does not appear to resolve to a solution. This is to say the algorithm does exactly what the papers suggest it should, but the termination condition never executes. The states of the nuerons never stop changing. Despite this, the outputs of the neurons stop changing rather quickly. This is to say that the states are running off, or changing in ways that don't cause the outputs to change. At the end of the epochs, the current layout of the board is sometimes a solution, but never a knight's tour.
+	
+	This means the algorithm implementation needs to be changed. I've been looking at other peoples' difficulties with this algorithm, and there are a lot of them. Unfortunately, none of their problems appear to be mine. What an annoying problem.
+	
+	If I can get it to converge, I'd love to implement a GUI for the results.
