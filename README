@@ -1,3 +1,13 @@
+This folder contains two programs, both of which attempt to solve the Knight's Tour problem. The crux of the problem is to find a sequence of moves by a knight on a chess board, where the knight visits each space once and only once. The two solving methods are:
+
+1. Neural Network algorithm
+2. Least freedom algorithm
+
+
+
+1. Neural Network (knights_nn)
+==========================
+
 This program's purpose is to implement an object oriented neural network based on Takefuji and Lee's paper in Neurocomputing. It solves the nxn Knight's Tour problem, representing each space on the board as a "node." The nodes are connected by "neurons" that represent each legal knight's move on the board. The neurons themselves have two imporant attributes: output and state. The output is either 0 or 1, and signifies wether or not the neuron is part of the final solution, meaning that move is part of the knight's tour. The state is a number which varies each time the network updates unless the neuron only has two active neighbors.
 
 The code works as follows:
@@ -29,3 +39,32 @@ Current Status:
 	This means the algorithm implementation needs to be changed. I've been looking at other peoples' difficulties with this algorithm, and there are a lot of them. Unfortunately, none of their problems appear to be mine. What an annoying problem.
 	
 	If I can get it to converge, I'd love to implement a GUI for the results.
+	
+
+2. Least Freedom (knights_lf)
+=========================
+
+This is a very non-object-oriented approach. The basic form is to keep track of the moves, spaces, and adjacent space lists in a set of arrays. Starting from a user defined point, the algorithm chooses spaces to visit, and if it runs out of space, it backtracks.
+
+Selection Criteria:
+One of the arrays keeps track of the "degree of freedom" of each space, meaning the number of available moves out of that space. When choosing a new space to go to, it selects the available space with the lowest degree of freedom. (or the first it sees, if there is a tie) As a result, it actively selects for the spaces that are harder to reach, visiting them first. This is especially helpful in corner spots, where there are only two possible moves. (One needed to get in, one to get out)
+
+Memory usage:
+In order for this algorithm to work, it needs arrays as large as the chess board. For some of these arrays (for example, the list of adjacent spaces out of a space), the array needs to be multidimensional, with the inner arrays of length 8. As a result, the memory required is O(n), but the constant memory required per chess board space is somewhat large.
+
+Processor usage:
+As much as possible, I tried to reduce the number of calculations and comparisons required to find a result. As a result, the code is able to run successfully very quickly. I was shocked to get an answer for a 24x24 grid in substantially less than a second.
+
+Current Status:
+	Board creation and initialization... perfect.
+	Algorithm correctness............... close.
+	Optimization........................ not yet.
+	visuals............................. not yet.
+	
+	So, right not, the algorithm is extremely good at getting a knight's tour on its first try. However, some flaw in the backtracking code makes it so that any time it needs to back track, it is unable to complete. I'm currently looking into potential causes.
+	
+	After I've fixed that problem, I can optimize the code a bit, reducing memory and processor usage as much as possible.
+	
+	Then, I'll let it run over and over again, so I can take statistics on time required to find a solution, and things like that.
+	
+	Lastly, I'll add some visuals. I haven't yet made a GUI with C++, so that should be fun.
