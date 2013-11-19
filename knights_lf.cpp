@@ -68,8 +68,9 @@ int main () {
 
 int findnext() {
 	int tempnext = -1;
-	int tempi = 8;
+	int tempi = 9;
 	for (int i = 0; i < ipossibles[here]; i++) {
+		cout << "\n\tTesting " << possibles[here][i];
 		int testcase = possibles[here][i];
 		if (ipossibles[testcase] < tempi) {
 			if (!(intravelled(here,testcase))) {
@@ -94,7 +95,7 @@ bool intravelled(int source, int target) {
 
 void visit(int loc) {
 	in++;
-	cout << "\nf" << in << " , " << loc;
+	cout << "\nf " << in << " , " << loc;
 	
 	travelled[here][itravelled[here]] = loc;
 	itravelled[here]++;
@@ -109,17 +110,17 @@ void visit(int loc) {
 
 void removepossible (int source, int target) {
 	bool foundit = false;
-	for (int i = 0; i < (ipossibles[source]-1); i++) {
+	for (int i = 0; i < (ipossibles[source]); i++) {
+		if (foundit) {
+			possibles[source][i-1] = possibles[source][i];
+		};
 		if (possibles[source][i] == target) {
 			foundit = true;
 		};
-		if (foundit) {
-			possibles[source][i] = possibles[source][i+1];
-		};
 	};
 	if (foundit) {
-		possibles[source][7] = -1;
 		ipossibles[source]--;
+		possibles[source][ipossibles[source]] = -1;
 	};
 }
 
@@ -130,11 +131,10 @@ void backtrack() {
 	for (int i = 0; i < itravelled[here]; i++) {				// Resets list of locations travelled to from here.
 		travelled[here][i] = -1;								// to -1.
 	};
+	itravelled[here] = 0;
 	travelled[lasts[here]][itravelled[lasts[here]]] = here;		// Adds here to the end of the list of places travelled to from the previous place.
 	itravelled[lasts[here]]++;									// Increments the endpoint of that list.
-	possibles[lasts[here]][ipossibles[lasts[here]]] = here;		// Adds back the list of possibles of the previous point.
-	ipossibles[lasts[here]]++;									// Increments the endpoint of that list.
-	
+
 	for (int i = 0; i < ipossibles[here]; i++) {				// Adds this point back to the list of possibles of all adjacent points.
 		int there = possibles[here][i];							// using a temp. integer called there to make syntax more readable.
 		possibles[there][ipossibles[there]] = here;				// Adds here to the end of the possibles of there.
@@ -196,6 +196,10 @@ void initialize () {
 		if ((x>0)&&(y>1)) {
 			possibles[i][*j] = (i - (2*w) - 1);
 			(*j)++;
+		};
+		cout << "\nThe possibles from " << i << " are: ";
+		for (int k = 0; k < ipossibles[i]; k++) {
+			cout << possibles[i][k] << " ";
 		};
 	}
 }

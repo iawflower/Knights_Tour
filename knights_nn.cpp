@@ -7,7 +7,7 @@ using namespace std;
 #define MAXSIZE 25
 #define MINSIZE 6
 #define MAXEPOCHS 1000
-
+	
 /*
 This program's purpose is to implement an object oriented neural network based on Takefuji and Lee's paper in Neurocomputing. It solves the nxn Knight's Tour problem, representing each space on the board as a "node." The nodes are connected by "neurons" that represent each legal knight's move on the board. The neurons themselves have two imporant attributes: output and state. The output is either 0 or 1, and signifies wether or not the neuron is part of the final solution, meaning that move is part of the knight's tour. The state is a number which varies each time the network updates unless the neuron only has two active neighbors.
 

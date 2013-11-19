@@ -1,0 +1,2558 @@
+Enter chessboard width: Enter chessboard height: 
+The possibles from 0 are: 8 13 
+The possibles from 1 are: 9 14 12 
+The possibles from 2 are: 10 15 13 6 
+The possibles from 3 are: 11 16 14 7 
+The possibles from 4 are: 17 15 8 
+The possibles from 5 are: 16 9 
+The possibles from 6 are: 2 14 19 
+The possibles from 7 are: 3 15 20 18 
+The possibles from 8 are: 4 16 21 19 12 0 
+The possibles from 9 are: 5 17 22 20 13 1 
+The possibles from 10 are: 23 21 14 2 
+The possibles from 11 are: 22 15 3 
+The possibles from 12 are: 1 8 20 25 
+The possibles from 13 are: 2 9 21 26 24 0 
+The possibles from 14 are: 3 10 22 27 25 18 6 1 
+The possibles from 15 are: 4 11 23 28 26 19 7 2 
+The possibles from 16 are: 5 29 27 20 8 3 
+The possibles from 17 are: 28 21 9 4 
+The possibles from 18 are: 7 14 26 31 
+The possibles from 19 are: 8 15 27 32 30 6 
+The possibles from 20 are: 9 16 28 33 31 24 12 7 
+The possibles from 21 are: 10 17 29 34 32 25 13 8 
+The possibles from 22 are: 11 35 33 26 14 9 
+The possibles from 23 are: 34 27 15 10 
+The possibles from 24 are: 13 20 32 
+The possibles from 25 are: 14 21 33 12 
+The possibles from 26 are: 15 22 34 30 18 13 
+The possibles from 27 are: 16 23 35 31 19 14 
+The possibles from 28 are: 17 32 20 15 
+The possibles from 29 are: 33 21 16 
+The possibles from 30 are: 19 26 
+The possibles from 31 are: 20 27 18 
+The possibles from 32 are: 21 28 24 19 
+The possibles from 33 are: 22 29 25 20 
+The possibles from 34 are: 23 26 21 
+The possibles from 35 are: 27 22 
+Choose starting point: 
+f 1 , 10
+	Testing 23
+	Testing 21
+	Testing 14
+	Testing 2
+f 2 , 2
+	Testing 15
+	Testing 13
+	Testing 6
+f 3 , 6
+	Testing 14
+	Testing 19
+f 4 , 14
+	Testing 3
+	Testing 22
+	Testing 27
+	Testing 25
+	Testing 18
+	Testing 1
+f 5 , 1
+	Testing 9
+	Testing 12
+f 6 , 12
+	Testing 8
+	Testing 20
+	Testing 25
+f 7 , 25
+	Testing 21
+	Testing 33
+	Testing 12
+f 8 , 33
+	Testing 22
+	Testing 29
+	Testing 20
+f 9 , 29
+	Testing 21
+	Testing 16
+f 10 , 21
+	Testing 17
+	Testing 34
+	Testing 32
+	Testing 13
+	Testing 8
+f 11 , 17
+	Testing 28
+	Testing 9
+	Testing 4
+f 12 , 4
+	Testing 15
+	Testing 8
+f 13 , 8
+	Testing 16
+	Testing 19
+	Testing 0
+f 14 , 0
+	Testing 13
+f 15 , 13
+	Testing 9
+	Testing 26
+	Testing 24
+	Testing 0
+f 16 , 24
+	Testing 20
+	Testing 32
+f 17 , 32
+	Testing 28
+	Testing 19
+f 18 , 28
+	Testing 20
+	Testing 15
+f 19 , 20
+	Testing 9
+	Testing 16
+	Testing 31
+	Testing 7
+f 20 , 31
+	Testing 27
+	Testing 18
+f 21 , 18
+	Testing 7
+	Testing 26
+	Testing 31
+f 22 , 7
+	Testing 3
+	Testing 15
+	Testing 18
+f 23 , 3
+	Testing 11
+	Testing 16
+	Testing 7
+f 24 , 11
+	Testing 22
+	Testing 15
+	Testing 3
+f 25 , 22
+	Testing 35
+	Testing 26
+	Testing 9
+f 26 , 35
+	Testing 27
+	Testing 22
+f 27 , 27
+	Testing 16
+	Testing 23
+	Testing 19
+	Testing 14
+f 28 , 16
+	Testing 5
+	Testing 3
+f 29 , 5
+	Testing 9
+f 30 , 9
+	Testing 1
+b 29 , 5
+	Testing 9
+b 28 , 16
+	Testing 5
+	Testing 3
+b 27 , 27
+	Testing 16
+	Testing 23
+	Testing 19
+	Testing 14
+f 28 , 23
+	Testing 34
+	Testing 15
+	Testing 10
+f 29 , 34
+	Testing 26
+	Testing 21
+f 30 , 26
+	Testing 15
+	Testing 30
+	Testing 13
+f 31 , 15
+	Testing 19
+	Testing 7
+f 32 , 19
+	Testing 30
+	Testing 6
+f 33 , 30
+	Testing 26
+b 32 , 19
+	Testing 30
+	Testing 6
+b 31 , 15
+	Testing 19
+	Testing 7
+b 30 , 26
+	Testing 15
+	Testing 13
+	Testing 30
+f 31 , 30
+	Testing 26
+	Testing 19
+f 32 , 19
+	Testing 6
+	Testing 15
+f 33 , 15
+	Testing 7
+b 32 , 19
+	Testing 6
+	Testing 15
+b 31 , 30
+	Testing 26
+	Testing 19
+b 30 , 26
+	Testing 15
+	Testing 13
+	Testing 30
+	Testing 30
+b 29 , 34
+	Testing 26
+	Testing 21
+b 28 , 23
+	Testing 34
+	Testing 15
+	Testing 10
+f 29 , 15
+	Testing 7
+	Testing 19
+	Testing 26
+f 30 , 19
+	Testing 6
+	Testing 30
+f 31 , 30
+	Testing 26
+	Testing 26
+	Testing 26
+f 32 , 26
+	Testing 13
+	Testing 34
+f 33 , 34
+	Testing 21
+b 32 , 26
+	Testing 13
+	Testing 34
+b 31 , 30
+	Testing 26
+	Testing 26
+	Testing 26
+b 30 , 19
+	Testing 6
+	Testing 30
+b 29 , 15
+	Testing 7
+	Testing 19
+	Testing 26
+f 30 , 26
+	Testing 13
+	Testing 34
+	Testing 30
+	Testing 30
+	Testing 30
+f 31 , 30
+	Testing 19
+f 32 , 19
+	Testing 6
+	Testing 30
+b 31 , 30
+	Testing 19
+	Testing 19
+b 30 , 26
+	Testing 13
+	Testing 34
+	Testing 30
+	Testing 30
+	Testing 30
+f 31 , 34
+	Testing 21
+	Testing 26
+b 30 , 26
+	Testing 13
+	Testing 30
+	Testing 30
+	Testing 30
+	Testing 34
+b 29 , 15
+	Testing 7
+	Testing 19
+	Testing 26
+b 28 , 23
+	Testing 34
+	Testing 15
+	Testing 10
+b 27 , 27
+	Testing 16
+	Testing 23
+	Testing 19
+	Testing 14
+f 28 , 19
+	Testing 6
+	Testing 30
+	Testing 30
+	Testing 30
+	Testing 15
+f 29 , 30
+	Testing 26
+	Testing 26
+	Testing 26
+f 30 , 26
+	Testing 13
+	Testing 34
+	Testing 15
+f 31 , 15
+	Testing 7
+	Testing 23
+f 32 , 23
+	Testing 34
+	Testing 10
+f 33 , 34
+	Testing 21
+	Testing 26
+	Testing 23
+b 32 , 23
+	Testing 10
+	Testing 34
+b 31 , 15
+	Testing 7
+	Testing 23
+b 30 , 26
+	Testing 13
+	Testing 15
+	Testing 34
+f 31 , 34
+	Testing 21
+	Testing 26
+	Testing 23
+	Testing 23
+f 32 , 23
+	Testing 10
+	Testing 15
+f 33 , 15
+	Testing 7
+	Testing 23
+b 32 , 23
+	Testing 10
+	Testing 15
+	Testing 15
+b 31 , 34
+	Testing 21
+	Testing 26
+	Testing 23
+	Testing 23
+b 30 , 26
+	Testing 13
+	Testing 15
+	Testing 34
+	Testing 34
+b 29 , 30
+	Testing 26
+	Testing 26
+	Testing 26
+b 28 , 19
+	Testing 6
+	Testing 30
+	Testing 30
+	Testing 30
+	Testing 15
+f 29 , 15
+	Testing 7
+	Testing 23
+	Testing 23
+	Testing 23
+	Testing 26
+f 30 , 23
+	Testing 10
+	Testing 34
+	Testing 34
+f 31 , 34
+	Testing 21
+	Testing 26
+	Testing 26
+	Testing 26
+f 32 , 26
+	Testing 13
+	Testing 30
+	Testing 30
+	Testing 30
+f 33 , 30
+	Testing 26
+b 32 , 26
+	Testing 13
+	Testing 30
+	Testing 30
+	Testing 30
+b 31 , 34
+	Testing 21
+	Testing 26
+	Testing 26
+	Testing 26
+b 30 , 23
+	Testing 10
+	Testing 34
+	Testing 34
+b 29 , 15
+	Testing 7
+	Testing 23
+	Testing 23
+	Testing 23
+	Testing 26
+f 30 , 26
+	Testing 13
+	Testing 30
+	Testing 30
+	Testing 30
+	Testing 34
+	Testing 34
+	Testing 34
+f 31 , 30
+	Testing 26
+b 30 , 26
+	Testing 13
+	Testing 30
+	Testing 30
+	Testing 34
+	Testing 34
+	Testing 34
+	Testing 30
+f 31 , 34
+	Testing 21
+	Testing 23
+	Testing 23
+f 32 , 23
+	Testing 10
+	Testing 34
+b 31 , 34
+	Testing 21
+	Testing 23
+	Testing 23
+b 30 , 26
+	Testing 13
+	Testing 30
+	Testing 30
+	Testing 34
+	Testing 34
+	Testing 34
+	Testing 30
+b 29 , 15
+	Testing 7
+	Testing 23
+	Testing 23
+	Testing 23
+	Testing 26
+b 28 , 19
+	Testing 6
+	Testing 30
+	Testing 30
+	Testing 30
+	Testing 15
+b 27 , 27
+	Testing 16
+	Testing 23
+	Testing 19
+	Testing 14
+b 26 , 35
+	Testing 27
+	Testing 22
+b 25 , 22
+	Testing 26
+	Testing 9
+	Testing 35
+f 26 , 9
+	Testing 1
+	Testing 5
+f 27 , 5
+	Testing 16
+f 28 , 16
+	Testing 3
+	Testing 27
+f 29 , 27
+	Testing 23
+	Testing 19
+	Testing 14
+	Testing 35
+f 30 , 35
+	Testing 22
+b 29 , 27
+	Testing 23
+	Testing 19
+	Testing 14
+	Testing 35
+f 30 , 19
+	Testing 6
+	Testing 30
+	Testing 30
+	Testing 30
+	Testing 15
+	Testing 27
+f 31 , 30
+	Testing 26
+	Testing 26
+	Testing 26
+	Testing 26
+	Testing 19
+f 32 , 26
+	Testing 13
+	Testing 34
+	Testing 34
+	Testing 34
+	Testing 15
+f 33 , 34
+	Testing 21
+	Testing 23
+	Testing 23
+	Testing 26
+f 34 , 23
+	Testing 10
+	Testing 34
+	Testing 15
+	Testing 15
+	Testing 15
+f 35 , 15
+	Testing 7
+	Testing 19
+b 34 , 23
+	Testing 10
+	Testing 34
+	Testing 15
+	Testing 15
+	Testing 15
+b 33 , 34
+	Testing 21
+	Testing 23
+	Testing 26
+	Testing 23
+b 32 , 26
+	Testing 13
+	Testing 34
+	Testing 34
+	Testing 15
+	Testing 34
+f 33 , 15
+	Testing 7
+	Testing 19
+	Testing 23
+	Testing 23
+	Testing 23
+f 34 , 23
+	Testing 10
+	Testing 34
+	Testing 34
+	Testing 34
+f 35 , 34
+	Testing 21
+	Testing 26
+	Testing 23
+b 34 , 23
+	Testing 10
+	Testing 34
+	Testing 34
+	Testing 34
+b 33 , 15
+	Testing 7
+	Testing 19
+	Testing 23
+	Testing 23
+	Testing 23
+b 32 , 26
+	Testing 13
+	Testing 34
+	Testing 15
+	Testing 34
+	Testing 34
+b 31 , 30
+	Testing 26
+	Testing 26
+	Testing 26
+	Testing 26
+	Testing 19
+b 30 , 19
+	Testing 6
+	Testing 30
+	Testing 30
+	Testing 27
+	Testing 15
+	Testing 15
+	Testing 30
+f 31 , 15
+	Testing 7
+	Testing 19
+	Testing 23
+	Testing 23
+	Testing 23
+	Testing 26
+f 32 , 23
+	Testing 10
+	Testing 34
+	Testing 34
+	Testing 34
+	Testing 15
+f 33 , 34
+	Testing 21
+	Testing 26
+	Testing 23
+	Testing 26
+	Testing 26
+	Testing -1
+b 32 , 23
+	Testing 10
+	Testing 34
+	Testing 34
+	Testing 15
+	Testing 34
+b 31 , 15
+	Testing 7
+	Testing 19
+	Testing 23
+	Testing 23
+	Testing 26
+	Testing 23
+f 32 , 26
+	Testing 13
+	Testing 30
+	Testing 30
+	Testing 30
+	Testing -1
+	Testing 34
+	Testing 34
+	Testing 34
+b 31 , 15
+	Testing 7
+	Testing 19
+	Testing 23
+	Testing 23
+	Testing 26
+	Testing 23
+b 30 , 19
+	Testing 6
+	Testing 30
+	Testing 30
+	Testing 27
+	Testing 15
+	Testing 30
+	Testing 15
+b 29 , 27
+	Testing 15
+	Testing 14
+	Testing 35
+	Testing 19
+f 30 , 15
+	Testing 7
+	Testing 19
+	Testing 23
+	Testing 23
+	Testing 26
+	Testing 23
+	Testing 19
+	Testing 19
+f 31 , 23
+	Testing 10
+	Testing 34
+	Testing 34
+	Testing 34
+	Testing 15
+f 32 , 34
+	Testing 21
+	Testing -1
+	Testing -1
+	Testing 26
+	Testing 26
+	Testing -1
+b 31 , 23
+	Testing 10
+	Testing 34
+	Testing 34
+	Testing 34
+	Testing 15
+b 30 , 15
+	Testing 7
+	Testing 19
+	Testing 23
+	Testing 26
+	Testing 23
+	Testing 19
+	Testing 19
+	Testing 23
+f 31 , 19
+	Testing 6
+	Testing 30
+	Testing 30
+	Testing 27
+	Testing 30
+	Testing 15
+f 32 , 30
+	Testing 26
+	Testing 26
+	Testing 26
+	Testing 26
+	Testing 19
+f 33 , 26
+	Testing 13
+	Testing -1
+	Testing 34
+	Testing -1
+	Testing 34
+	Testing -1
+b 32 , 30
+	Testing 26
+	Testing 26
+	Testing 26
+	Testing 26
+	Testing 19
+b 31 , 19
+	Testing 6
+	Testing 30
+	Testing 27
+	Testing 30
+	Testing 15
+	Testing 30
+b 30 , 15
+	Testing 7
+	Testing 23
+	Testing 26
+	Testing 23
+	Testing 19
+	Testing 19
+	Testing 23
+	Testing 19
+b 29 , 27
+	Testing 30
+	Testing 30
+	Testing 15
+	Testing 19
+	Testing 19
+f 30 , 30
+	Testing 26
+	Testing 26
+	Testing 26
+	Testing 26
+	Testing 19
+	Testing 19
+	Testing 19
+	Testing 19
+f 31 , 19
+	Testing 6
+	Testing 27
+	Testing 15
+	Testing 15
+	Testing 15
+	Testing -1
+f 32 , 15
+	Testing 7
+	Testing 23
+	Testing 26
+	Testing 23
+	Testing 23
+	Testing 19
+f 33 , 23
+	Testing 10
+	Testing 34
+	Testing 34
+	Testing 34
+	Testing 15
+f 34 , 34
+	Testing 21
+	Testing -1
+	Testing -1
+	Testing -1
+	Testing -1
+	Testing 26
+	Testing -1
+b 33 , 23
+	Testing 10
+	Testing 34
+	Testing 34
+	Testing 34
+	Testing 15
+b 32 , 15
+	Testing 7
+	Testing 26
+	Testing 23
+	Testing 23
+	Testing 19
+	Testing 23
+b 31 , 19
+	Testing 6
+	Testing 27
+	Testing 15
+	Testing 15
+	Testing -1
+	Testing 15
+b 30 , 30
+	Testing 26
+	Testing 26
+	Testing 26
+	Testing 26
+	Testing 19
+	Testing 19
+	Testing 19
+	Testing 19
+b 29 , 27
+	Testing 34
+	Testing 15
+	Testing 30
+	Testing 30
+	Testing 30
+b 28 , 16
+	Testing 19
+	Testing 27
+b 27 , 5
+	Testing 16
+b 26 , 9
+	Testing 1
+	Testing 5
+b 25 , 22
+	Testing 26
+	Testing 9
+	Testing 35
+	Testing 35
+b 24 , 11
+	Testing 22
+	Testing 15
+	Testing 3
+b 23 , 3
+	Testing 7
+	Testing 16
+	Testing 11
+f 24 , 16
+	Testing 19
+	Testing 27
+	Testing 11
+f 25 , 11
+	Testing 22
+	Testing 15
+	Testing 3
+f 26 , 22
+	Testing 26
+	Testing 9
+	Testing 35
+	Testing 35
+	Testing 11
+f 27 , 35
+	Testing 23
+	Testing 22
+f 28 , 23
+	Testing 10
+	Testing 34
+	Testing 34
+	Testing 34
+	Testing 15
+	Testing 15
+	Testing 15
+	Testing 15
+f 29 , 15
+	Testing 7
+	Testing 26
+	Testing 19
+	Testing 19
+	Testing 19
+	Testing -1
+	Testing -1
+	Testing -1
+f 30 , 19
+	Testing 6
+	Testing 27
+	Testing -1
+	Testing 30
+	Testing 30
+	Testing -1
+	Testing -1
+	Testing -1
+f 31 , 27
+	Testing 34
+	Testing 30
+	Testing 30
+	Testing 30
+	Testing 16
+	Testing 22
+b 30 , 19
+	Testing 6
+	Testing 27
+	Testing -1
+	Testing 30
+	Testing 30
+	Testing -1
+	Testing -1
+	Testing -1
+b 29 , 15
+	Testing 7
+	Testing 26
+	Testing 19
+	Testing 19
+	Testing 19
+	Testing -1
+	Testing -1
+	Testing -1
+b 28 , 23
+	Testing 10
+	Testing 34
+	Testing 34
+	Testing 34
+	Testing 15
+	Testing 15
+	Testing 15
+	Testing 15
+b 27 , 35
+	Testing 22
+	Testing 22
+b 26 , 22
+	Testing 26
+	Testing 9
+	Testing 35
+	Testing 11
+	Testing 27
+	Testing 35
+	Testing 35
+f 27 , 9
+	Testing 1
+	Testing 5
+	Testing 22
+f 28 , 5
+	Testing 16
+	Testing 9
+b 27 , 9
+	Testing 1
+	Testing 22
+	Testing 5
+b 26 , 22
+	Testing 26
+	Testing 35
+	Testing 11
+	Testing 27
+	Testing 35
+	Testing 35
+	Testing 9
+f 27 , 27
+	Testing 34
+	Testing 30
+	Testing 30
+	Testing 30
+	Testing 16
+	Testing 22
+	Testing 15
+b 26 , 22
+	Testing 26
+	Testing 35
+	Testing 11
+	Testing 35
+	Testing 35
+	Testing 9
+	Testing 27
+b 25 , 11
+	Testing 15
+	Testing 3
+	Testing 22
+b 24 , 16
+	Testing 23
+	Testing 23
+	Testing 23
+	Testing 23
+	Testing 27
+	Testing 11
+f 25 , 23
+	Testing 10
+	Testing 34
+	Testing 34
+	Testing 34
+	Testing 15
+	Testing 15
+	Testing 15
+	Testing 15
+b 24 , 16
+	Testing 27
+	Testing 11
+	Testing 23
+	Testing 23
+	Testing 23
+	Testing 23
+f 25 , 27
+	Testing 34
+	Testing 30
+	Testing 30
+	Testing 30
+	Testing 16
+	Testing 22
+	Testing 15
+	Testing 22
+f 26 , 22
+	Testing 26
+	Testing 35
+	Testing 11
+	Testing 35
+	Testing 35
+	Testing 9
+	Testing 11
+f 27 , 35
+	Testing 22
+	Testing 22
+b 26 , 22
+	Testing 26
+	Testing 11
+	Testing 35
+	Testing 9
+	Testing 11
+	Testing 35
+	Testing 35
+f 27 , 11
+	Testing 15
+	Testing 3
+	Testing 22
+b 26 , 22
+	Testing 26
+	Testing 35
+	Testing 9
+	Testing 11
+	Testing 35
+	Testing 35
+	Testing 11
+f 27 , 9
+	Testing 1
+	Testing 5
+	Testing 22
+f 28 , 5
+	Testing 16
+	Testing 9
+b 27 , 9
+	Testing 1
+	Testing 22
+	Testing 5
+b 26 , 22
+	Testing 26
+	Testing 35
+	Testing 11
+	Testing 35
+	Testing 35
+	Testing 11
+	Testing 9
+b 25 , 27
+	Testing 34
+	Testing 30
+	Testing 30
+	Testing 30
+	Testing 16
+	Testing 15
+	Testing 22
+	Testing 22
+b 24 , 16
+	Testing 23
+	Testing 23
+	Testing 23
+	Testing 23
+	Testing 23
+	Testing 5
+	Testing 27
+f 25 , 5
+	Testing 16
+	Testing 9
+	Testing 9
+f 26 , 9
+	Testing 1
+	Testing 22
+	Testing 22
+f 27 , 22
+	Testing 26
+	Testing 35
+	Testing 11
+	Testing 35
+	Testing 35
+	Testing 11
+	Testing 27
+	Testing -1
+f 28 , 35
+	Testing 22
+	Testing 22
+b 27 , 22
+	Testing 26
+	Testing 11
+	Testing 35
+	Testing 11
+	Testing 27
+	Testing -1
+	Testing 35
+	Testing 35
+f 28 , 11
+	Testing 15
+	Testing 3
+	Testing 22
+b 27 , 22
+	Testing 26
+	Testing 35
+	Testing 11
+	Testing 27
+	Testing -1
+	Testing 35
+	Testing 35
+	Testing 11
+f 28 , 27
+	Testing 34
+	Testing 30
+	Testing 30
+	Testing 30
+	Testing 16
+	Testing 15
+	Testing 22
+b 27 , 22
+	Testing 26
+	Testing 35
+	Testing 11
+	Testing -1
+	Testing 35
+	Testing 35
+	Testing 11
+	Testing 27
+b 26 , 9
+	Testing 1
+	Testing 22
+	Testing 22
+b 25 , 5
+	Testing 16
+	Testing 9
+	Testing 9
+b 24 , 16
+	Testing 23
+	Testing 23
+	Testing 23
+	Testing 23
+	Testing 23
+	Testing 27
+	Testing 27
+	Testing 5
+b 23 , 3
+	Testing 7
+	Testing 16
+	Testing 11
+	Testing 11
+b 22 , 7
+	Testing 18
+	Testing 15
+	Testing 15
+	Testing 3
+b 21 , 18
+	Testing 26
+	Testing 31
+	Testing 7
+b 20 , 31
+	Testing 19
+	Testing 19
+	Testing 18
+b 19 , 20
+	Testing 15
+	Testing 15
+	Testing 15
+	Testing 31
+b 18 , 28
+	Testing 18
+	Testing 16
+f 19 , 18
+	Testing 26
+	Testing 31
+	Testing 7
+	Testing 31
+f 20 , 31
+	Testing 19
+	Testing 19
+	Testing 20
+f 21 , 20
+	Testing 15
+	Testing 15
+	Testing 15
+	Testing 31
+b 20 , 31
+	Testing 19
+	Testing 19
+	Testing 20
+	Testing 20
+b 19 , 18
+	Testing 26
+	Testing 31
+	Testing 7
+	Testing 31
+f 20 , 7
+	Testing 15
+	Testing 15
+	Testing 3
+	Testing 18
+f 21 , 3
+	Testing 16
+	Testing 11
+	Testing 11
+	Testing 7
+f 22 , 11
+	Testing 15
+	Testing 22
+	Testing 22
+	Testing 22
+	Testing 3
+f 23 , 22
+	Testing 26
+	Testing 35
+	Testing -1
+	Testing 35
+	Testing 35
+	Testing 27
+	Testing -1
+	Testing -1
+f 24 , 35
+	Testing 22
+	Testing 22
+b 23 , 22
+	Testing 26
+	Testing -1
+	Testing 35
+	Testing 27
+	Testing -1
+	Testing -1
+	Testing 35
+	Testing 35
+b 22 , 11
+	Testing 15
+	Testing 22
+	Testing 22
+	Testing 22
+	Testing 3
+b 21 , 3
+	Testing 16
+	Testing 11
+	Testing 7
+	Testing 11
+b 20 , 7
+	Testing 15
+	Testing 15
+	Testing 18
+	Testing 3
+b 19 , 18
+	Testing 26
+	Testing 31
+	Testing 31
+	Testing 7
+b 18 , 28
+	Testing 22
+	Testing 18
+b 17 , 32
+	Testing 28
+	Testing 19
+b 16 , 24
+	Testing 16
+	Testing 16
+b 15 , 13
+	Testing 9
+	Testing 24
+	Testing 0
+	Testing 26
+	Testing 26
+f 16 , 9
+	Testing 1
+	Testing 22
+	Testing 22
+	Testing 5
+	Testing 5
+f 17 , 5
+	Testing 16
+	Testing 16
+b 16 , 9
+	Testing 1
+	Testing 22
+	Testing 22
+	Testing 5
+	Testing 5
+b 15 , 13
+	Testing 9
+	Testing 24
+	Testing 0
+	Testing 26
+	Testing 26
+b 14 , 0
+	Testing 19
+	Testing 13
+b 13 , 8
+	Testing 16
+	Testing 19
+	Testing 0
+b 12 , 4
+	Testing 15
+	Testing 8
+b 11 , 17
+	Testing 3
+	Testing 24
+	Testing 24
+f 12 , 24
+	Testing 16
+	Testing 16
+	Testing 13
+f 13 , 13
+	Testing 9
+	Testing 0
+	Testing 26
+	Testing 26
+	Testing 0
+f 14 , 0
+	Testing 19
+	Testing 8
+f 15 , 8
+	Testing 16
+	Testing 19
+	Testing 4
+f 16 , 4
+	Testing 15
+	Testing 8
+b 15 , 8
+	Testing 16
+	Testing 19
+	Testing 4
+	Testing 4
+b 14 , 0
+	Testing 19
+	Testing 8
+b 13 , 13
+	Testing 9
+	Testing 0
+	Testing 26
+	Testing 26
+	Testing 0
+f 14 , 9
+	Testing 1
+	Testing 22
+	Testing 22
+	Testing 5
+	Testing 5
+	Testing 13
+f 15 , 5
+	Testing 16
+	Testing 16
+	Testing 9
+b 14 , 9
+	Testing 1
+	Testing 22
+	Testing 22
+	Testing 5
+	Testing 13
+	Testing 5
+b 13 , 13
+	Testing 0
+	Testing 26
+	Testing 26
+	Testing 0
+	Testing 9
+b 12 , 24
+	Testing 16
+	Testing 16
+	Testing 13
+b 11 , 17
+	Testing 3
+	Testing 8
+	Testing 8
+f 12 , 3
+	Testing 16
+	Testing 11
+	Testing 7
+	Testing 11
+	Testing 7
+f 13 , 7
+	Testing 15
+	Testing 15
+	Testing 18
+	Testing 18
+f 14 , 18
+	Testing 4
+	Testing 31
+	Testing 31
+	Testing 28
+f 15 , 28
+	Testing 13
+	Testing 13
+f 16 , 13
+	Testing 0
+	Testing 26
+	Testing 26
+	Testing 0
+	Testing 9
+	Testing 24
+f 17 , 0
+	Testing 19
+	Testing 8
+	Testing 13
+f 18 , 8
+	Testing 16
+	Testing 19
+	Testing 4
+	Testing 4
+	Testing 0
+f 19 , 4
+	Testing 15
+	Testing 8
+b 18 , 8
+	Testing 16
+	Testing 19
+	Testing 4
+	Testing 0
+	Testing 4
+b 17 , 0
+	Testing 19
+	Testing 13
+	Testing 8
+b 16 , 13
+	Testing 26
+	Testing 26
+	Testing 0
+	Testing 9
+	Testing 24
+	Testing 0
+f 17 , 24
+	Testing 16
+	Testing 16
+	Testing 13
+b 16 , 13
+	Testing 26
+	Testing 26
+	Testing 0
+	Testing 9
+	Testing 0
+	Testing 24
+f 17 , 9
+	Testing 1
+	Testing 22
+	Testing 22
+	Testing 5
+	Testing 5
+	Testing 13
+f 18 , 5
+	Testing 16
+	Testing 16
+	Testing 9
+b 17 , 9
+	Testing 1
+	Testing 22
+	Testing 22
+	Testing 5
+	Testing 13
+	Testing 5
+b 16 , 13
+	Testing 26
+	Testing 26
+	Testing 0
+	Testing 0
+	Testing 24
+	Testing 9
+b 15 , 28
+	Testing 13
+	Testing 13
+b 14 , 18
+	Testing 4
+	Testing 31
+	Testing 31
+	Testing 28
+f 15 , 4
+	Testing 15
+	Testing 8
+	Testing 8
+	Testing 8
+f 16 , 8
+	Testing 16
+	Testing 19
+	Testing 0
+	Testing 0
+f 17 , 0
+	Testing 19
+	Testing 13
+	Testing 13
+	Testing 13
+f 18 , 13
+	Testing 26
+	Testing 26
+	Testing 24
+	Testing 9
+	Testing 28
+	Testing 28
+f 19 , 28
+	Testing 13
+b 18 , 13
+	Testing 26
+	Testing 26
+	Testing 24
+	Testing 9
+	Testing 28
+	Testing 28
+f 19 , 24
+	Testing 16
+	Testing 16
+	Testing 13
+b 18 , 13
+	Testing 26
+	Testing 26
+	Testing 9
+	Testing 28
+	Testing 28
+	Testing 24
+f 19 , 9
+	Testing 1
+	Testing 22
+	Testing 22
+	Testing 5
+	Testing 5
+	Testing 13
+f 20 , 5
+	Testing 16
+	Testing 16
+	Testing 9
+b 19 , 9
+	Testing 1
+	Testing 22
+	Testing 22
+	Testing 5
+	Testing 13
+	Testing 5
+b 18 , 13
+	Testing 26
+	Testing 26
+	Testing 28
+	Testing 28
+	Testing 24
+	Testing 9
+b 17 , 0
+	Testing 19
+	Testing 13
+	Testing 13
+	Testing 13
+b 16 , 8
+	Testing 16
+	Testing 19
+	Testing 0
+	Testing 0
+b 15 , 4
+	Testing 15
+	Testing 8
+	Testing 8
+	Testing 8
+b 14 , 18
+	Testing 4
+	Testing 31
+	Testing 31
+	Testing 28
+f 15 , 31
+	Testing 19
+	Testing 19
+	Testing 20
+	Testing 20
+	Testing 18
+f 16 , 20
+	Testing 15
+	Testing 15
+	Testing 15
+	Testing 32
+	Testing 8
+f 17 , 32
+	Testing 28
+	Testing 19
+f 18 , 28
+	Testing 13
+	Testing 13
+	Testing 13
+f 19 , 13
+	Testing 26
+	Testing 26
+	Testing 24
+	Testing 9
+	Testing 0
+	Testing 0
+	Testing -1
+f 20 , 24
+	Testing 16
+	Testing 16
+	Testing 13
+b 19 , 13
+	Testing 26
+	Testing 26
+	Testing 9
+	Testing 0
+	Testing 0
+	Testing -1
+	Testing 24
+f 20 , 0
+	Testing 19
+	Testing 8
+	Testing 8
+	Testing 8
+f 21 , 8
+	Testing 16
+	Testing 19
+	Testing 4
+	Testing 4
+	Testing 4
+f 22 , 4
+	Testing 15
+	Testing 8
+b 21 , 8
+	Testing 16
+	Testing 19
+	Testing 4
+	Testing 4
+	Testing 4
+b 20 , 0
+	Testing 19
+	Testing 8
+	Testing 8
+	Testing 8
+b 19 , 13
+	Testing 26
+	Testing 26
+	Testing 9
+	Testing 0
+	Testing 0
+	Testing -1
+	Testing 24
+f 20 , 9
+	Testing 1
+	Testing 22
+	Testing 22
+	Testing 5
+	Testing 5
+	Testing 13
+f 21 , 5
+	Testing 16
+	Testing 16
+	Testing 9
+b 20 , 9
+	Testing 1
+	Testing 22
+	Testing 22
+	Testing 5
+	Testing 13
+	Testing 5
+b 19 , 13
+	Testing 26
+	Testing 26
+	Testing 0
+	Testing 0
+	Testing -1
+	Testing 24
+	Testing 9
+b 18 , 28
+	Testing 13
+	Testing 13
+	Testing 13
+b 17 , 32
+	Testing 28
+	Testing 19
+b 16 , 20
+	Testing 15
+	Testing 15
+	Testing 15
+	Testing 8
+	Testing -1
+f 17 , 8
+	Testing 16
+	Testing 19
+	Testing 4
+	Testing 4
+	Testing 4
+	Testing 0
+	Testing 0
+	Testing 0
+f 18 , 4
+	Testing 15
+	Testing 8
+b 17 , 8
+	Testing 16
+	Testing 19
+	Testing 4
+	Testing 4
+	Testing 0
+	Testing 0
+	Testing 0
+	Testing 4
+f 18 , 0
+	Testing 19
+	Testing 13
+	Testing 13
+f 19 , 13
+	Testing 26
+	Testing 26
+	Testing -1
+	Testing 24
+	Testing 9
+	Testing 28
+	Testing -1
+	Testing -1
+f 20 , 24
+	Testing 16
+	Testing 16
+	Testing 13
+b 19 , 13
+	Testing 26
+	Testing 26
+	Testing -1
+	Testing 9
+	Testing 28
+	Testing -1
+	Testing -1
+	Testing 24
+f 20 , 28
+	Testing 32
+	Testing 32
+	Testing 32
+f 21 , 32
+	Testing 19
+b 20 , 28
+	Testing 32
+	Testing 32
+	Testing 32
+b 19 , 13
+	Testing 26
+	Testing 26
+	Testing -1
+	Testing 9
+	Testing 28
+	Testing -1
+	Testing -1
+	Testing 24
+f 20 , 9
+	Testing 1
+	Testing 22
+	Testing 22
+	Testing 5
+	Testing 5
+	Testing 13
+f 21 , 5
+	Testing 16
+	Testing 16
+	Testing 9
+b 20 , 9
+	Testing 1
+	Testing 22
+	Testing 22
+	Testing 5
+	Testing 13
+	Testing 5
+b 19 , 13
+	Testing 26
+	Testing 26
+	Testing -1
+	Testing 28
+	Testing -1
+	Testing -1
+	Testing 24
+	Testing 9
+b 18 , 0
+	Testing 19
+	Testing 13
+	Testing 13
+b 17 , 8
+	Testing 16
+	Testing 19
+	Testing 4
+	Testing 4
+	Testing 0
+	Testing 0
+	Testing 0
+	Testing 4
+b 16 , 20
+	Testing 15
+	Testing 15
+	Testing 15
+	Testing -1
+	Testing 8
+b 15 , 31
+	Testing 19
+	Testing 19
+	Testing 20
+	Testing 20
+	Testing 18
+b 14 , 18
+	Testing 20
+	Testing 20
+	Testing 20
+	Testing 31
+f 15 , 20
+	Testing 15
+	Testing 15
+	Testing 15
+	Testing -1
+	Testing 8
+	Testing 31
+	Testing 31
+f 16 , 31
+	Testing 19
+	Testing 19
+	Testing 18
+b 15 , 20
+	Testing 15
+	Testing 15
+	Testing 15
+	Testing -1
+	Testing 8
+	Testing 32
+	Testing 0
+f 16 , 32
+	Testing 19
+	Testing 28
+	Testing 28
+	Testing 28
+f 17 , 28
+	Testing 13
+	Testing 13
+b 16 , 32
+	Testing 19
+	Testing 28
+	Testing 28
+	Testing 28
+b 15 , 20
+	Testing 15
+	Testing 15
+	Testing 15
+	Testing -1
+	Testing 8
+	Testing 0
+	Testing 8
+f 16 , 0
+	Testing 19
+	Testing 13
+	Testing 13
+	Testing 8
+	Testing 8
+	Testing 8
+f 17 , 8
+	Testing 16
+	Testing 19
+	Testing 4
+	Testing 4
+	Testing 4
+	Testing -1
+f 18 , 4
+	Testing 15
+	Testing 8
+b 17 , 8
+	Testing 16
+	Testing 19
+	Testing 4
+	Testing 4
+	Testing -1
+	Testing 4
+b 16 , 0
+	Testing 19
+	Testing 13
+	Testing 13
+	Testing 8
+	Testing 8
+	Testing 22
+b 15 , 20
+	Testing 15
+	Testing 15
+	Testing 15
+	Testing -1
+	Testing 8
+	Testing 31
+	Testing 31
+f 16 , 8
+	Testing 16
+	Testing 19
+	Testing 4
+	Testing 4
+	Testing -1
+	Testing 4
+	Testing 0
+	Testing 0
+f 17 , 4
+	Testing 15
+	Testing 8
+b 16 , 8
+	Testing 16
+	Testing 19
+	Testing 4
+	Testing -1
+	Testing 4
+	Testing 0
+	Testing 0
+	Testing 4
+f 17 , 0
+	Testing 19
+	Testing 13
+	Testing 13
+	Testing 22
+	Testing 9
+f 18 , 9
+	Testing 20
+	Testing 22
+	Testing 22
+	Testing 5
+	Testing 13
+	Testing 5
+	Testing 13
+f 19 , 5
+	Testing 16
+	Testing 16
+	Testing 9
+b 18 , 9
+	Testing 20
+	Testing 22
+	Testing 22
+	Testing 13
+	Testing 5
+	Testing 13
+	Testing 5
+b 17 , 0
+	Testing 19
+	Testing 13
+	Testing 13
+	Testing 22
+	Testing 9
+b 16 , 8
+	Testing 16
+	Testing 19
+	Testing 4
+	Testing -1
+	Testing 4
+	Testing 0
+	Testing 0
+	Testing 4
+b 15 , 20
+	Testing 15
+	Testing 15
+	Testing 15
+	Testing -1
+	Testing 31
+	Testing 31
+	Testing 31
+	Testing 9
+f 16 , 9
+	Testing 20
+	Testing 22
+	Testing 22
+	Testing 13
+	Testing 5
+	Testing 13
+	Testing 5
+	Testing 0
+f 17 , 5
+	Testing 16
+	Testing 16
+	Testing 9
+b 16 , 9
+	Testing 20
+	Testing 22
+	Testing 22
+	Testing 13
+	Testing 13
+	Testing 5
+	Testing 0
+	Testing 5
+f 17 , 0
+	Testing 19
+	Testing 13
+	Testing 13
+	Testing 22
+	Testing 8
+	Testing 8
+f 18 , 8
+	Testing 16
+	Testing 19
+	Testing 4
+	Testing -1
+	Testing 4
+	Testing 4
+f 19 , 4
+	Testing 15
+	Testing 8
+b 18 , 8
+	Testing 16
+	Testing 19
+	Testing -1
+	Testing 4
+	Testing 4
+	Testing 4
+b 17 , 0
+	Testing 19
+	Testing 13
+	Testing 13
+	Testing 22
+	Testing 8
+	Testing 8
+b 16 , 9
+	Testing 20
+	Testing 22
+	Testing 22
+	Testing 13
+	Testing 13
+	Testing 5
+	Testing 0
+	Testing 5
+b 15 , 20
+	Testing 15
+	Testing 15
+	Testing 15
+	Testing -1
+	Testing 31
+	Testing 31
+	Testing 31
+	Testing 9
+b 14 , 18
+	Testing 4
+	Testing 4
+	Testing 20
+	Testing 20
+	Testing 20
+b 13 , 7
+	Testing 15
+	Testing 15
+	Testing 18
+	Testing 18
+b 12 , 3
+	Testing 16
+	Testing 11
+	Testing 7
+	Testing 11
+	Testing 7
+f 13 , 11
+	Testing 15
+	Testing 22
+	Testing 22
+	Testing 22
+	Testing 3
+b 12 , 3
+	Testing 16
+	Testing 7
+	Testing 11
+	Testing 7
+	Testing 11
+b 11 , 17
+	Testing 24
+	Testing 24
+	Testing 24
+b 10 , 21
+	Testing 18
+	Testing 18
+	Testing 18
+	Testing 8
+	Testing 0
+	Testing 34
+f 11 , 18
+	Testing 4
+	Testing 4
+	Testing 20
+	Testing 20
+	Testing 20
+	Testing 7
+	Testing 7
+f 12 , 7
+	Testing 15
+	Testing 15
+	Testing 3
+	Testing 3
+f 13 , 3
+	Testing 16
+	Testing 11
+	Testing 11
+f 14 , 11
+	Testing 15
+	Testing 22
+	Testing 22
+	Testing 22
+	Testing 3
+b 13 , 3
+	Testing 16
+	Testing 11
+	Testing 11
+b 12 , 7
+	Testing 15
+	Testing 15
+	Testing 3
+	Testing 3
+b 11 , 18
+	Testing 3
+	Testing 4
+	Testing 20
+	Testing 20
+	Testing 20
+	Testing 11
+	Testing 11
+f 12 , 3
+	Testing 16
+	Testing 11
+	Testing 11
+	Testing 7
+	Testing 7
+f 13 , 7
+	Testing 15
+	Testing 15
+	Testing 3
+b 12 , 3
+	Testing 16
+	Testing 11
+	Testing 11
+	Testing 7
+	Testing 7
+f 13 , 11
+	Testing 15
+	Testing 22
+	Testing 22
+	Testing 22
+	Testing 3
+b 12 , 3
+	Testing 16
+	Testing 11
+	Testing 7
+	Testing 7
+	Testing 11
+b 11 , 18
+	Testing 3
+	Testing 4
+	Testing 20
+	Testing 20
+	Testing 20
+	Testing 11
+	Testing 7
+f 12 , 4
+	Testing 15
+	Testing 8
+	Testing 8
+	Testing 8
+	Testing 8
+	Testing 18
+f 13 , 8
+	Testing 16
+	Testing 19
+	Testing -1
+	Testing 0
+	Testing 0
+f 14 , 0
+	Testing 19
+	Testing 13
+	Testing 13
+	Testing 22
+	Testing 9
+	Testing 13
+f 15 , 9
+	Testing 20
+	Testing 22
+	Testing 22
+	Testing 13
+	Testing 13
+	Testing 5
+	Testing 5
+	Testing -1
+f 16 , 5
+	Testing 16
+	Testing 16
+	Testing 9
+b 15 , 9
+	Testing 20
+	Testing 22
+	Testing 22
+	Testing 13
+	Testing 13
+	Testing 5
+	Testing -1
+	Testing 5
+b 14 , 0
+	Testing 19
+	Testing 13
+	Testing 13
+	Testing 22
+	Testing 13
+	Testing 13
+b 13 , 8
+	Testing 16
+	Testing 19
+	Testing -1
+	Testing 0
+	Testing 0
+b 12 , 4
+	Testing 15
+	Testing 8
+	Testing 8
+	Testing 8
+	Testing 8
+	Testing 18
+b 11 , 18
+	Testing 8
+	Testing 20
+	Testing 20
+	Testing 20
+	Testing 11
+	Testing 7
+	Testing 7
+	Testing 4
+f 12 , 11
+	Testing 15
+	Testing 22
+	Testing 22
+	Testing 22
+	Testing 3
+	Testing 3
+	Testing 3
+f 13 , 3
+	Testing 16
+	Testing 7
+	Testing 7
+	Testing 11
+f 14 , 7
+	Testing 15
+	Testing 15
+	Testing 3
+b 13 , 3
+	Testing 16
+	Testing 7
+	Testing 11
+	Testing 7
+b 12 , 11
+	Testing 15
+	Testing 22
+	Testing 22
+	Testing 22
+	Testing 3
+	Testing 3
+	Testing 3
+b 11 , 18
+	Testing 3
+	Testing 20
+	Testing 20
+	Testing 20
+	Testing 4
+	Testing 11
+	Testing 4
+	Testing 7
+b 10 , 21
+	Testing 18
+	Testing 9
+	Testing 18
+	Testing 18
+	Testing 18
+	Testing 8
+f 11 , 9
+	Testing 4
+	Testing 22
+	Testing 22
+	Testing 13
+	Testing 13
+	Testing 5
+	Testing -1
+	Testing 5
+f 12 , 5
+	Testing 16
+	Testing 16
+	Testing 9
+b 11 , 9
+	Testing 4
+	Testing 22
+	Testing 22
+	Testing 13
+	Testing 13
+	Testing -1
+	Testing 5
+	Testing 5
+f 12 , 4
+	Testing 15
+	Testing 8
+	Testing 8
+	Testing 8
+	Testing 8
+	Testing 18
+	Testing 18
+	Testing 18
+f 13 , 8
+	Testing 16
+	Testing 19
+	Testing -1
+	Testing 0
+	Testing 0
+	Testing -1
+f 14 , 0
+	Testing 19
+	Testing 13
+	Testing 13
+	Testing 22
+	Testing 13
+	Testing 13
+	Testing -1
+b 13 , 8
+	Testing 16
+	Testing 19
+	Testing -1
+	Testing 0
+	Testing 0
+	Testing -1
+b 12 , 4
+	Testing 15
+	Testing 8
+	Testing 8
+	Testing 8
+	Testing 8
+	Testing 18
+	Testing 18
+	Testing 18
+f 13 , 18
+	Testing 8
+	Testing 20
+	Testing 20
+	Testing 20
+	Testing 11
+	Testing 7
+	Testing 7
+f 14 , 8
+	Testing 16
+	Testing 19
+	Testing -1
+	Testing 0
+	Testing 0
+	Testing -1
+f 15 , 0
+	Testing 19
+	Testing 13
+	Testing 13
+	Testing 22
+	Testing 13
+	Testing 13
+	Testing -1
+	Testing -1
+b 14 , 8
+	Testing 16
+	Testing 19
+	Testing -1
+	Testing 0
+	Testing 0
+	Testing -1
+b 13 , 18
+	Testing 8
+	Testing 20
+	Testing 20
+	Testing 20
+	Testing 11
+	Testing 7
+	Testing 7
+f 14 , 7
+	Testing 15
+	Testing 15
+	Testing 3
+	Testing 3
+	Testing 3
+	Testing 18
+f 15 , 3
+	Testing 16
+	Testing 11
+	Testing 11
+	Testing 11
+	Testing 11
+	Testing 18
+f 16 , 11
+	Testing 15
+	Testing 22
+	Testing 22
+	Testing 22
+	Testing 3
+b 15 , 3
+	Testing 16
+	Testing 11
+	Testing 11
+	Testing 11
+	Testing 18
+	Testing 11
+b 14 , 7
+	Testing 15
+	Testing 15
+	Testing 3
+	Testing 3
+	Testing 3
+	Testing 18
+b 13 , 18
+	Testing 3
+	Testing 20
+	Testing 20
+	Testing 20
+	Testing -1
+	Testing 11
+	Testing 11
+	Testing 7
+	Testing 7
+b 12 , 4
+	Testing 7
+	Testing 18
+	Testing 8
+	Testing 8
+	Testing 8
+	Testing 18
+	Testing 18
+	Testing 18
+f 13 , 7
+	Testing 15
+	Testing 15
+	Testing 3
+	Testing 3
+	Testing 3
+	Testing 18
+	Testing 18
+	Testing 18
+f 14 , 3
+	Testing 16
+	Testing 11
+	Testing 11
+	Testing 11
+	Testing 18
+	Testing 11
+	Testing -1
+	Testing -1
+f 15 , 11
+	Testing 15
+	Testing 22
+	Testing 22
+	Testing 22
+	Testing -1
+	Testing -1
+	Testing -1
+b 14 , 3
+	Testing 16
+	Testing 11
+	Testing 11
+	Testing 11
+	Testing 18
+	Testing 11
+	Testing -1
+	Testing -1
+f 15 , 18
+	Testing 20
+	Testing 20
+	Testing 20
+	Testing -1
+	Testing 11
+	Testing -1
+	Testing -1
+f 16 , 11
+	Testing 15
+	Testing 22
+	Testing 22
+	Testing 22
+	Testing -1
+	Testing -1
+	Testing -1
+b 15 , 18
+	Testing 20
+	Testing 20
+	Testing 20
+	Testing -1
+	Testing -1
+	Testing -1
+	Testing 11
+b 14 , 3
+	Testing 16
+	Testing 11
+	Testing 11
+	Testing 11
+	Testing 18
+	Testing 11
+	Testing -1
+	Testing -1
+b 13 , 7
+	Testing 15
+	Testing 15
+	Testing 3
+	Testing 3
+	Testing 3
+	Testing 18
+	Testing 18
+	Testing 18
+f 14 , 18
+	Testing 3
+	Testing 20
+	Testing 20
+	Testing -1
+	Testing -1
+	Testing -1
+	Testing 11
+	Testing 3
+f 15 , 3
+	Testing 16
+	Testing 11
+	Testing 11
+	Testing 11
+	Testing 11
+	Testing -1
+	Testing -1
+b 14 , 18
+	Testing 3
+	Testing 20
+	Testing 20
+	Testing -1
+	Testing -1
+	Testing -1
+	Testing 11
+	Testing 3
+b 13 , 7
+	Testing 15
+	Testing 15
+	Testing 3
+	Testing 3
+	Testing 3
+	Testing 18
+	Testing 18
+	Testing 18
+b 12 , 4
+	Testing 18
+	Testing 7
+	Testing 7
+	Testing 7
+	Testing 8
+	Testing 18
+	Testing 18
+	Testing 18
+b 11 , 9
+	Testing 4
+	Testing 22
+	Testing 22
+	Testing 13
+	Testing 13
+	Testing -1
+	Testing 5
+	Testing 5
+b 10 , 21
+	Testing 9
+	Testing 18
+	Testing 18
+	Testing 18
+	Testing 18
+	Testing 8
+f 11 , 8
+	Testing 4
+	Testing 4
+	Testing 4
+	Testing 0
+	Testing 0
+	Testing -1
+	Testing 4
+f 12 , 4
+	Testing 18
+	Testing 7
+	Testing 7
+	Testing 7
+	Testing 18
+	Testing 18
+	Testing 18
+	Testing -1
+b 11 , 8
+	Testing 4
+	Testing 4
+	Testing 4
+	Testing 4
+	Testing 0
+	Testing -1
+	Testing 4
+b 10 , 21
+	Testing 9
+	Testing 18
+	Testing 18
+	Testing 18
+	Testing 18
+	Testing 8
+b 9 , 29
+	Testing 21
+	Testing 16
+b 8 , 33
+	Testing 22
+	Testing 29
+	Testing 20
+b 7 , 25
+	Testing 21
+	Testing 33
+	Testing 12
+f 8 , 21
+	Testing 9
+	Testing 18
+	Testing 18
+	Testing 
