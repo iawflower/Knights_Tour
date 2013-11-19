@@ -57,13 +57,10 @@ As much as possible, I tried to reduce the number of calculations and comparison
 
 Current Status:
 	Board creation and initialization... perfect.
-	Algorithm correctness............... close.
-	Optimization........................ not yet.
+	Algorithm correctness............... Good.
 	visuals............................. not yet.
 	
-	So, right not, the algorithm is extremely good at getting a knight's tour on its first try. However, some flaw in the backtracking code makes it so that any time it needs to back track, it is unable to complete. I'm currently looking into potential causes.
-	
-	After I've fixed that problem, I can optimize the code a bit, reducing memory and processor usage as much as possible.
+	The algorithm now correctly acquires a knight's tour whenever given a starting position from which a knight's tour exists. However, the code is not yet properly handling cases where one does not exist, that will be the next fix.
 	
 	Then, I'll let it run over and over again, so I can take statistics on time required to find a solution, and things like that.
 	
